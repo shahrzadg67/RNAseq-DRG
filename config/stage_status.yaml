@@ -1,0 +1,94 @@
+# ──────────────────────────────────────────────────────────────────────────
+# Release control for the TUY35595 app.
+#  status  : planned | in_progress | complete | finalized  (shown in Methods tab)
+#  released: true|false  -> when true, this stage's tab is visible on the PUBLIC (prod) build.
+# Staging build ignores `released` and shows everything.
+# Edit this file, then: bash deploy/publish.sh prod   (or staging)
+# ──────────────────────────────────────────────────────────────────────────
+project:
+  name: "TUY35595 — Mouse DRG/Nerve RNA-seq (MINP / SNI / Sham)"
+  client_visible_title: "RNA-seq Differential Expression — TUY35595"
+  last_updated: "July 2026"
+  pipeline: "nf-core/rnaseq v3.19.0 · STAR+Salmon · GRCm39 (Ensembl 116)"
+
+stages:
+  - id: 0
+    key: methods
+    title: "Methods & Pipeline"
+    status: finalized
+    released: true
+  - id: 1
+    key: summary
+    title: "Summary of Results"
+    status: finalized
+    released: true
+  - id: 2
+    key: qc
+    title: "Quality Control"
+    status: finalized
+    released: true
+  - id: 3
+    key: pca
+    title: "PCA — uncorrected"
+    status: finalized
+    released: true
+  - id: 4
+    key: de
+    title: "Differential Expression — uncorrected"
+    status: finalized
+    released: true
+  - id: 5
+    key: gsea
+    title: "Gene Set Enrichment (GSEA) — uncorrected"
+    status: finalized
+    released: true
+  - id: 6
+    key: pca_noxy
+    title: "PCA — corrected (batch + sex chromosomes)"
+    status: finalized
+    released: true
+  - id: 7
+    key: de_noxy
+    title: "Differential Expression — corrected (batch + sex chromosomes)"
+    status: finalized
+    released: true
+  - id: 8
+    key: gsea_noxy
+    title: "Gene Set Enrichment (GSEA) — corrected (batch + sex chromosomes)"
+    status: finalized
+    released: true
+  - id: 9
+    key: venn
+    title: "Venn / overlap"
+    status: finalized
+    released: true
+  - id: 10
+    key: heatmap
+    title: "Heatmap"
+    status: finalized
+    released: true
+  - id: 11
+    key: deconvolution
+    title: "Deconvolution (cell-type proportions)"
+    status: finalized
+    released: true
+  - id: 12
+    key: xspecies
+    title: "Cross-species (rat DRG)"
+    status: finalized
+    released: true
+  - id: 13
+    key: xspecies_monkey
+    title: "Cross-species (macaque DRG)"
+    status: finalized
+    released: true
+  - id: 14
+    key: gene_card
+    title: "Gene lookup (sub-tab of Cross-species meta-analysis)"
+    status: finalized
+    released: true
+  - id: 15
+    key: cross_pca
+    title: "Cross-species meta-analysis"
+    status: finalized
+    released: true

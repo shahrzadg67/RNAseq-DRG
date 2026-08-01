@@ -1,0 +1,205 @@
+{
+  "target": "prod",
+  "project": {
+    "name": "TUY35595 — Mouse DRG/Nerve RNA-seq (MINP / SNI / Sham)",
+    "client_visible_title": "RNA-seq Differential Expression — TUY35595",
+    "last_updated": "July 2026",
+    "pipeline": "nf-core/rnaseq v3.19.0 · STAR+Salmon · GRCm39 (Ensembl 116)"
+  },
+  "stages": {
+    "methods": {
+      "id": 0,
+      "title": "Methods & Pipeline",
+      "status": "finalized",
+      "released": true
+    },
+    "summary": {
+      "id": 1,
+      "title": "Summary of Results",
+      "status": "finalized",
+      "released": true
+    },
+    "qc": {
+      "id": 2,
+      "title": "Quality Control",
+      "status": "finalized",
+      "released": true
+    },
+    "pca": {
+      "id": 3,
+      "title": "PCA — uncorrected",
+      "status": "finalized",
+      "released": true
+    },
+    "de": {
+      "id": 4,
+      "title": "Differential Expression — uncorrected",
+      "status": "finalized",
+      "released": true
+    },
+    "gsea": {
+      "id": 5,
+      "title": "Gene Set Enrichment (GSEA) — uncorrected",
+      "status": "finalized",
+      "released": true
+    },
+    "pca_noxy": {
+      "id": 6,
+      "title": "PCA — corrected (batch + sex chromosomes)",
+      "status": "finalized",
+      "released": true
+    },
+    "de_noxy": {
+      "id": 7,
+      "title": "Differential Expression — corrected (batch + sex chromosomes)",
+      "status": "finalized",
+      "released": true
+    },
+    "gsea_noxy": {
+      "id": 8,
+      "title": "Gene Set Enrichment (GSEA) — corrected (batch + sex chromosomes)",
+      "status": "finalized",
+      "released": true
+    },
+    "venn": {
+      "id": 9,
+      "title": "Venn / overlap",
+      "status": "finalized",
+      "released": true
+    },
+    "heatmap": {
+      "id": 10,
+      "title": "Heatmap",
+      "status": "finalized",
+      "released": true
+    },
+    "deconvolution": {
+      "id": 11,
+      "title": "Deconvolution (cell-type proportions)",
+      "status": "finalized",
+      "released": true
+    },
+    "xspecies": {
+      "id": 12,
+      "title": "Cross-species (rat DRG)",
+      "status": "finalized",
+      "released": true
+    },
+    "xspecies_monkey": {
+      "id": 13,
+      "title": "Cross-species (macaque DRG)",
+      "status": "finalized",
+      "released": true
+    },
+    "gene_card": {
+      "id": 14,
+      "title": "Gene lookup (sub-tab of Cross-species meta-analysis)",
+      "status": "finalized",
+      "released": true
+    },
+    "cross_pca": {
+      "id": 15,
+      "title": "Cross-species meta-analysis",
+      "status": "finalized",
+      "released": true
+    }
+  },
+  "stages_ordered": [
+    {
+      "key": "methods",
+      "title": "Methods & Pipeline",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "summary",
+      "title": "Summary of Results",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "qc",
+      "title": "Quality Control",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "pca",
+      "title": "PCA — uncorrected",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "de",
+      "title": "Differential Expression — uncorrected",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "gsea",
+      "title": "Gene Set Enrichment (GSEA) — uncorrected",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "pca_noxy",
+      "title": "PCA — corrected (batch + sex chromosomes)",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "de_noxy",
+      "title": "Differential Expression — corrected (batch + sex chromosomes)",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "gsea_noxy",
+      "title": "Gene Set Enrichment (GSEA) — corrected (batch + sex chromosomes)",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "venn",
+      "title": "Venn / overlap",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "heatmap",
+      "title": "Heatmap",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "deconvolution",
+      "title": "Deconvolution (cell-type proportions)",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "xspecies",
+      "title": "Cross-species (rat DRG)",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "xspecies_monkey",
+      "title": "Cross-species (macaque DRG)",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "gene_card",
+      "title": "Gene lookup (sub-tab of Cross-species meta-analysis)",
+      "status": "finalized",
+      "released": true
+    },
+    {
+      "key": "cross_pca",
+      "title": "Cross-species meta-analysis",
+      "status": "finalized",
+      "released": true
+    }
+  ]
+}

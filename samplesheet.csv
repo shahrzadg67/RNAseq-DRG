@@ -1,0 +1,15 @@
+sample,fastq_1,fastq_2,strandedness
+NP_F1,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/NP_F1_S130_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/NP_F1_S130_L001_R2_001.fastq.gz,auto
+NP_F2,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/NP_F2_S131_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/NP_F2_S131_L001_R2_001.fastq.gz,auto
+NP_F3,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/NP_F3_S132_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/NP_F3_S132_L001_R2_001.fastq.gz,auto
+NP_M1,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/NP_M1_S124_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/NP_M1_S124_L001_R2_001.fastq.gz,auto
+NP_M2,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/NP_M2_S125_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/NP_M2_S125_L001_R2_001.fastq.gz,auto
+NP_M3,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/NP_M3_S126_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/NP_M3_S126_L001_R2_001.fastq.gz,auto
+Sham_F1,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/Sham_F1_S133_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/Sham_F1_S133_L001_R2_001.fastq.gz,auto
+Sham_F2,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/Sham_F2_S134_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/Sham_F2_S134_L001_R2_001.fastq.gz,auto
+Sham_F3,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/Sham_F3_S135_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/Sham_F3_S135_L001_R2_001.fastq.gz,auto
+Sham_M1,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/Sham_M1_S127_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/Sham_M1_S127_L001_R2_001.fastq.gz,auto
+Sham_M2,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/Sham_M2_S128_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/Sham_M2_S128_L001_R2_001.fastq.gz,auto
+Sham_M3,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/Sham_M3_S129_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/Sham_M3_S129_L001_R2_001.fastq.gz,auto
+SNI_F,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/SNI_F_S137_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/SNI_F_S137_L001_R2_001.fastq.gz,auto
+SNI_M,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/SNI_M_S136_L001_R1_001.fastq.gz,/hpf/projects/msalter/sghazis/rnaseq_TUY35595/fastq/SNI_M_S136_L001_R2_001.fastq.gz,auto

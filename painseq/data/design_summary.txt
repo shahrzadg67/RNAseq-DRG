@@ -1,0 +1,77 @@
+
+=========== C57 atlas ===========
+cells: 141093 | samples: 66 | cell types: 20 | injury x time groups: 25
+
+-- injury x time (cells) --
+            
+                 0     6    12    24    36    48    72   168   336   672  1440
+  Naive      16859     0     0     0     0     0     0     0     0     0     0
+  Crush          0  4046     0  5009     0     0 14329 19121 12074 13242  9787
+  ScNT           0  1209  3168   873     0     0  2397  5912     0  2440  2678
+  SpNT           0  2703  2633  3470  2775  2685  2913  1707     0     0     0
+  CFA            0     0     0     0     0  1685     0     0     0     0     0
+  Paclitaxel     0     0     0     0     0     0     0  2966     0     0     0
+            
+              2160
+  Naive          0
+  Crush       4412
+  ScNT           0
+  SpNT           0
+  CFA            0
+  Paclitaxel     0
+
+-- replicate samples per injury x time --
+            
+              0  6 12 24 36 48 72 168 336 672 1440 2160
+  Naive      10  0  0  0  0  0  0   0   0   0    0    0
+  Crush       0  2  0  2  0  0  2   5   2   2    4    2
+  ScNT        0  1  2  1  0  0  2   2   0   2    2    0
+  SpNT        0  3  2  2  2  2  5   4   0   0    0    0
+  CFA         0  0  0  0  0  1  0   0   0   0    0    0
+  Paclitaxel  0  0  0  0  0  0  0   2   0   0    0    0
+
+-- cell types --
+
+               NP               NF2               NF1        Fibroblast 
+            18041             17708             15022             14354 
+             PEP1           Satglia         Schwann_M         Schwann_N 
+            11279             10514             10321              8726 
+             PEP2            cLTMR1       Endothelial               SST 
+             6019              5036              4533              4279 
+       Macrophage          p_cLTMR2               NF3  Repair schwann_N 
+             3734              3000              2950              1824 
+         Pericyte Repair fibroblast            B cell        Neutrophil 
+             1821               701               616               615 
+
+-- sex x genotype --
+        
+            C57 Mrgprd-cre
+  female   6430          0
+  male   120931      13732
+
+=========== Atf3 WT/KO ===========
+cells: 17665 | samples: 12 | cell types: 9 | injury x time groups: 3
+
+-- injury x time (cells) --
+       
+           0   36  168
+  Naive 7075    0    0
+  Crush    0 3555 7035
+
+-- replicate samples per injury x time --
+       
+        0 36 168
+  Naive 6  0   0
+  Crush 0  2   4
+
+-- cell types --
+
+      NP      NF1     PEP1      NF2     PEP2   cLTMR1 p_cLTMR2      SST 
+    5721     2211     2198     2099     1891     1209     1033      738 
+     NF3 
+     565 
+
+-- sex x genotype --
+      
+       Atf3-KO Atf3-WT
+  male    8777    8888

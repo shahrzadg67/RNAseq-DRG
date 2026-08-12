@@ -1,0 +1,41 @@
+# ── Huge raw / pipeline / environment data — never tracked ──────────────────
+results/
+fastq/
+work/
+refs/
+Annotations/
+nf_cache/
+nfcore_rnaseq_*/
+.nextflow*
+singularity_cache/
+.Rlib/
+.extralib/
+logs/
+dev_data/
+*.pid
+
+# ── Regenerable analysis intermediates / bulky outputs ──────────────────────
+analysis/cache/
+DE_results/
+GSEA_results/
+plots_png/
+batch_corrected_results/
+CHAT_SESSION.md
+.noxy_jobid
+
+# ── App: keep code + data (.rds), drop heavy regenerable image trees ────────
+app/www/gsea/
+app/www/gsea_noxy/
+app/www/gsea_bc/
+app/www/pathview/
+app/www/pathview_noxy/
+app/www/pathview_bc/
+app/www/figs/
+app/www/multiqc/
+app/data/*_bc.rds        # retired batch-corrected-only variant (unused)
+app/shiny.pid
+
+# ── Deploy build artifacts ──────────────────────────────────────────────────
+deploy/site_staging/
+deploy/site_prod/
+deploy/app_deploy/

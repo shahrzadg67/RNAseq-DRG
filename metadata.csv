@@ -1,0 +1,15 @@
+sample_id,condition,sex,replicate,group
+NP_F1,NP,F,1,NP_F
+NP_F2,NP,F,2,NP_F
+NP_F3,NP,F,3,NP_F
+NP_M1,NP,M,1,NP_M
+NP_M2,NP,M,2,NP_M
+NP_M3,NP,M,3,NP_M
+Sham_F1,Sham,F,1,Sham_F
+Sham_F2,Sham,F,2,Sham_F
+Sham_F3,Sham,F,3,Sham_F
+Sham_M1,Sham,M,1,Sham_M
+Sham_M2,Sham,M,2,Sham_M
+Sham_M3,Sham,M,3,Sham_M
+SNI_F,SNI,F,1,SNI_F
+SNI_M,SNI,M,1,SNI_M

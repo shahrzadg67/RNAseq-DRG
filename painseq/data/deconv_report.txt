@@ -1,0 +1,41 @@
+=====================================================================
+ Naive-only vs injury-state deconvolution reference
+=====================================================================
+
+Reference composition:
+  naive_fixed  19 cell types  (missing: Repair fibroblast)
+  injury       20 cell types
+
+  `Repair fibroblast` exists in only 6 naive cells across the whole atlas, below the
+  20-cell minimum, so a naive-only reference cannot represent it at all. That was the
+  motivation for building an injury-state reference.
+
+--- MOUSE bulk: repair populations by condition (% of bulk) ---
+  naive_fixed  Repair schwann_N   NP=0.395  Sham=0.314  SNI=1.558
+  injury       Repair schwann_N   NP=0.000  Sham=0.000  SNI=0.000
+  injury       Repair fibroblast  NP=0.000  Sham=0.000  SNI=0.000
+
+=> The injury-state reference reports 0.000% repair cells in EVERY mouse sample,
+   including the two SNI samples. The naive reference does not: it puts
+   `Repair schwann_N` at ~1.3-1.8% in the SNI samples against 0.13-0.62% in Sham
+   and MINP — roughly a 3-4x elevation, in the one condition where axotomy actually
+   happened. So the naive reference gives the biologically sensible answer here and
+   the injury reference does not.
+
+   Why: MuSiC uses weighted NNLS. Signatures built from injured cells are far more
+   extreme, and with 20 competing cell types the solver drives the rare repair
+   components to exactly zero while other types absorb the signal (NF3 rises from
+   2.09% to 6.68%, PEP1 collapses from 2.88% to 0.03%).
+
+   CONCLUSION: do NOT switch the app's Deconvolution tab to an injury-state reference.
+   The naive-only reference stays the better choice. The real caveat to record is that
+   absolute proportions are sensitive to reference construction, so they should be read
+   as relative comparisons across samples, never as absolute tissue composition.
+
+--- Cross-species check on the injury reference ---
+  rat     Repair schwann_N: mean 0.64%, max 5.50% | Repair fibroblast: mean 1.28%, max 4.32%
+  monkey  Repair schwann_N: mean 8.09%, max 14.63% | Repair fibroblast: mean 0.00%, max 0.00%
+  In macaque, `Repair schwann_N` is highest in the injured (ipsi) samples — mean ~10.8%
+  versus ~7.3% in controls — which is the right direction, but the control samples
+  already sit high, and rat shows naive samples as high as injured ones. Cross-species
+  ortholog mapping adds enough noise that these numbers should not be over-read.

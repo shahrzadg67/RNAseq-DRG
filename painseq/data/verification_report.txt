@@ -1,0 +1,53 @@
+=====================================================================
+ VERIFICATION — 47-gene conserved injury panel in GSE154659
+=====================================================================
+
+panel genes carried into the model: 45 of 47  (Crybg1 absent from matrix; others dropped by filterByExpr)
+
+--- 3. POSITIVE CONTROL: canonical RAGs, axotomy 24h-7d ---
+  Atf3     mean log2FC +5.05  (range +4.47..+5.83)  sig in 9/9 columns
+  Gal      mean log2FC +3.33  (range +1.31..+5.09)  sig in 8/9 columns
+  Npy      mean log2FC +5.98  (range +0.32..+9.21)  sig in 8/9 columns
+  Sox11    mean log2FC +3.51  (range +2.63..+4.83)  sig in 9/9 columns
+  Gap43    mean log2FC +1.84  (range +0.85..+2.87)  sig in 8/9 columns
+  Sprr1a   mean log2FC +8.07  (range +4.36..+10.03)  sig in 8/9 columns
+  => PASS: every canonical RAG has mean log2FC > 1 across axotomy 24h-7d: TRUE
+
+--- 4. NEGATIVE CONTROL: panel response in axotomy vs non-axotomy ---
+  axotomy (24h/72h/7d)       n_cols= 9  mean log2FC +1.82  mean |log2FC| 2.01  sig-up (p<.05 & FC>1): 59.5% of cells
+  non-axotomy (CFA, Pacli)   n_cols= 2  mean log2FC +0.18  mean |log2FC| 0.57  sig-up (p<.05 & FC>1):  0.0% of cells
+  => axotomy induces the panel 9.9x more strongly than non-axotomy (mean log2FC ratio)
+  per non-axotomy column, genes significantly UP (adj.p<0.05 & log2FC>1):
+    CFA_48          0 / 45  (none)
+    Paclitaxel_168  0 / 45  (none)
+
+--- 6. BULK CROSS-CHECK: single-cell SpNT-7d vs bulk mouse SNI_vs_Sham ---
+  n=44 panel genes matched | Pearson r = 0.815 | Spearman rho = 0.733
+  same-direction: 42/44 (95%)
+  => a positive r confirms the gene mapping is sound; these are different
+     studies and platforms, so a moderate r is the expected result.
+
+--- 7. AMBIENT-RNA CHECK: is the panel neuron-specific? ---
+  In snRNA-seq, transcripts induced to very high levels in one cell type leak
+  into the ambient pool and inflate apparent induction everywhere. If the panel
+  is genuinely neuronal, the neuronal log2FC should clearly exceed non-neuronal.
+  mean panel log2FC: neuronal 2.14 (9 types) vs non-neuronal 1.41 (9 types)
+  genes with neuronal > non-neuronal: 30/33
+  marquee genes (mean log2FC at axotomy peak, unclipped):
+    Npy      neuronal +4.59 | non-neuronal +3.67 | immune (Macrophage/B/Neutrophil) +3.26
+    Atf3     neuronal +5.45 | non-neuronal +3.15 | immune (Macrophage/B/Neutrophil) +3.31
+    Gal      neuronal +5.39 | non-neuronal +3.93 | immune (Macrophage/B/Neutrophil) +3.49
+    Ecel1    neuronal +4.03 | non-neuronal +1.66 | immune (Macrophage/B/Neutrophil)   NaN
+    Gap43    neuronal +3.15 | non-neuronal +2.13 | immune (Macrophage/B/Neutrophil) +2.73
+  CAVEAT: a strongly positive non-neuronal value for a neuron-restricted gene
+  (e.g. Npy, Gal) indicates ambient leakage, NOT expression in that cell type.
+  Read Fig C column-wise for relative ranking, not as absolute per-type induction.
+
+--- NOTE: cell types with no Naive baseline ---
+  Repair schwann_N, Repair fibroblast
+  These are injury-induced populations: they do not exist in naive tissue, so
+  no 'vs Naive' contrast is definable and they are absent from Fig C/D/E.
+  This is exactly why a naive-only deconvolution reference cannot see them.
+
+--- 5. SENSITIVITY (from 03) ---
+  all-cells vs male-C57-only log2FC, Pearson r = 0.9958

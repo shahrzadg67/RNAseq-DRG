@@ -1,0 +1,7 @@
+"gene","role","pct_cells","total_umi","mean_expressing"
+"Actb","reference",85.807,785522,3.13
+"Atf3","reference",16.878,65152,2.13
+"Sprr1a","reference",16.64,95203,2.45
+"Slc15a2","MINP-associated",1.546,2451,1.69
+"Tmem265","MINP-associated",1.356,2147,1.4
+"Myh7","MINP-associated",0.185,270,1.34

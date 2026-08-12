@@ -1,0 +1,50 @@
+"Gene","role","peak_celltype","peak_celltype_full","peak_injury","peak_time_h","peak_time","log2FC","adj_p","pct_cells_detected"
+"Npy","panel","NF1","Myelinated A-fibre LTMR / neurofilament 1","SpNT",168,"7d",10.163,8.89e-16,6.774
+"Sprr1a","reference","NF2","Myelinated A-fibre LTMR / neurofilament 2","SpNT",168,"7d",9.556,1.02e-16,16.64
+"Gal","panel","NF3","Proprioceptor / neurofilament 3","SpNT",72,"72h",8.888,1.13e-10,15.329
+"Atf3","panel","NF1","Myelinated A-fibre LTMR / neurofilament 1","SpNT",36,"36h",8.297,1.97e-17,16.878
+"Sema6a","panel","NP","Non-peptidergic nociceptor","SpNT",36,"36h",7.398,9.36e-10,16.029
+"Sez6l","panel","NP","Non-peptidergic nociceptor","SpNT",48,"48h",7.189,3.38e-12,7.668
+"Flrt3","panel","cLTMR1","C-fibre low-threshold mechanoreceptor 1","SpNT",36,"36h",7.007,4.76e-05,26.984
+"Stmn4","panel","NP","Non-peptidergic nociceptor","SpNT",168,"7d",6.967,1.75e-15,15.321
+"Ecel1","panel","NP","Non-peptidergic nociceptor","SpNT",72,"72h",6.693,4.61e-12,3.381
+"Adcyap1","panel","NF2","Myelinated A-fibre LTMR / neurofilament 2","SpNT",36,"36h",6.672,1.89e-07,17.862
+"Sox11","reference","SST","Somatostatin+ pruriceptor","SpNT",72,"72h",6.322,3.7e-09,27.441
+"Cdkn1a","panel","NF2","Myelinated A-fibre LTMR / neurofilament 2","SpNT",168,"7d",6.264,2.77e-11,30.255
+"Tubb6","panel","PEP1","Peptidergic nociceptor 1","SpNT",168,"7d",5.907,9.16e-17,8.365
+"Jun","panel","cLTMR1","C-fibre low-threshold mechanoreceptor 1","SpNT",24,"24h",5.729,4.9e-08,34.817
+"Gap43","panel","NF2","Myelinated A-fibre LTMR / neurofilament 2","SpNT",168,"7d",5.686,5.59e-12,39.998
+"Sdc1","panel","NF1","Myelinated A-fibre LTMR / neurofilament 1","ScNT",72,"72h",5.638,2.61e-07,10.219
+"Gadd45a","panel","NF3","Proprioceptor / neurofilament 3","SpNT",24,"24h",5.494,1.77e-07,23.884
+"Chl1","panel","NF2","Myelinated A-fibre LTMR / neurofilament 2","Crush",168,"7d",5.432,3.25e-08,21.941
+"Csf1","panel","NF3","Proprioceptor / neurofilament 3","SpNT",36,"36h",5.381,4.86e-08,11.468
+"Itga7","panel","PEP1","Peptidergic nociceptor 1","SpNT",24,"24h",5.16,3.4e-14,34.485
+"Mmp16","panel","NF2","Myelinated A-fibre LTMR / neurofilament 2","SpNT",72,"72h",5.119,2.74e-14,9.27
+"Cryba2","panel","NP","Non-peptidergic nociceptor","Crush",72,"72h",5.032,1.39e-06,1.144
+"Vgf","panel","PEP2","Peptidergic nociceptor 2","SpNT",48,"48h",4.692,1.66e-08,30.851
+"Ptpn5","panel","PEP2","Peptidergic nociceptor 2","SpNT",72,"72h",4.355,1.83e-11,3.256
+"Socs3","panel","Schwann_M","Myelinating Schwann cell","SpNT",6,"6h",4.308,4.09e-05,5.791
+"Rnf122","panel","cLTMR1","C-fibre low-threshold mechanoreceptor 1","SpNT",12,"12h",4.032,0.000274,9.041
+"Tnik","panel","Macrophage","Macrophage","SpNT",168,"7d",3.938,0.0248,17.429
+"Nfil3","panel","NF1","Myelinated A-fibre LTMR / neurofilament 1","SpNT",48,"48h",3.566,8.86e-06,1.518
+"Fosl1","panel","NP","Non-peptidergic nociceptor","SpNT",36,"36h",3.524,2.45e-05,0.347
+"Ngf","panel","Fibroblast","Fibroblast","SpNT",48,"48h",3.197,0.0549,0.668
+"Pvr","panel","Macrophage","Macrophage","Crush",2160,"90d",3.193,0.247,8.149
+"Celf3","panel","NF1","Myelinated A-fibre LTMR / neurofilament 1","ScNT",72,"72h",3.184,0.000459,7.63
+"Mchr1","panel","PEP1","Peptidergic nociceptor 1","SpNT",168,"7d",3.099,2.49e-05,1.262
+"Insyn2a","panel","NP","Non-peptidergic nociceptor","Crush",72,"72h",2.939,0.0116,0.88
+"Nkain1","panel","NP","Non-peptidergic nociceptor","SpNT",48,"48h",2.813,0.00158,0.359
+"Cdh22","panel","NP","Non-peptidergic nociceptor","SpNT",168,"7d",2.809,0.000365,0.413
+"Mmp12","panel","Macrophage","Macrophage","SpNT",168,"7d",2.76,0.13,1.688
+"Lamb3","panel","PEP1","Peptidergic nociceptor 1","SpNT",72,"72h",2.747,3.3e-05,3.032
+"Ccbe1","panel","NF1","Myelinated A-fibre LTMR / neurofilament 1","ScNT",24,"24h",2.213,0.148,0.73
+"Vwc2","panel","NF2","Myelinated A-fibre LTMR / neurofilament 2","ScNT",72,"72h",1.875,0.148,1.557
+"Acp7","panel","PEP1","Peptidergic nociceptor 1","Crush",6,"6h",1.266,1,0.173
+"Il2ra","panel","PEP1","Peptidergic nociceptor 1","SpNT",48,"48h",1.257,0.237,0.376
+"Scin","panel","NP","Non-peptidergic nociceptor","Paclitaxel",168,"7d",0.955,1,1.86
+"Mlph","panel","NP","Non-peptidergic nociceptor","Paclitaxel",168,"7d",0.793,1,0.374
+"Pdyn","panel",NA,NA,NA,NA,NA,NA,NA,0.142
+"Gfap","panel",NA,NA,NA,NA,NA,NA,NA,0.321
+"Crybg1","panel",NA,NA,NA,NA,NA,NA,NA,NA
+"Pappa2","panel",NA,NA,NA,NA,NA,NA,NA,0.018
+"Ano7","panel",NA,NA,NA,NA,NA,NA,NA,0.049
